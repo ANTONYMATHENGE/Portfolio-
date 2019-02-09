@@ -116,7 +116,7 @@ body {
     position: absolute;
     right: 20px;
     bottom: 45px;
-    overflow: visible;
+    overflow: visible; 
 }
 .footer p {
     /*    position: relative;*/
