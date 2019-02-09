@@ -1,0 +1,149 @@
+
+/*
+    Created on : Feb 8th, 2019, 8:39:38 PM
+    Author     : Peter Wachira
+*/
+* {
+    box-sizing: border-box;
+    /*Make all elements unselectable*/
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Resources/background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+.down {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+.main {
+    position: absolute;
+    display: none;
+    /*background-color: rgba(0, 0, 0, .6);*/
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: "Segeo UI Historic";
+}
+#bold_category{
+    color: rgb(64, 109 , 24);
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.middle p {
+    /*position: absolute;*/
+    margin-top: -70px;
+    margin-left: -134px;
+    color: rgb(64, 109 , 24);
+    font-size: 20px;
+    font-weight: bold;
+}
+.top ul {
+    list-style: none;
+}
+.top ul li {
+    display: inline-block;
+    /*background-color: rgb(185, 223 , 147);*/
+    padding: 14px 5px 3px 5px;
+    border-bottom: 1px solid rgb(255, 255 , 255);
+    margin: 4px 22px;
+    transition: .3s;
+}
+.top .top-right  {
+    float: right;
+    opacity: .7;
+}
+.top ul li:hover {
+    border-bottom: 2px solid green;
+}
+.top ul a {
+    text-decoration: none;
+    color: rgb(225, 214 , 219);
+}
+.top .top-left {
+    /*clear: both;*/
+    float: left;
+    border: none;
+}
+.middle .right > h2::before{
+    content: "<";
+    color: rgb(143, 87 , 29);
+}
+.middle .right > h2::after{
+    content: ">";
+    color: rgb(143, 87 , 29);
+}
+.middle .left, .center, .right {
+    /*    width: 400px;
+        height: 300px;*/
+    display: inline-block;
+}
+.middle {
+    cursor: default;
+}
+.center {
+    margin: 0 80px;
+}
+.vertical-line{
+    width: 1px;
+    background-color: silver;
+    height: 100%;
+    float: left;
+    border: 2px ridge rgb(255, 255, 255);
+    border-radius: 2px;
+}
+.middle {
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer {
+    position: absolute;
+    right: 20px;
+    bottom: 45px;
+    overflow: visible;
+}
+.footer p {
+    /*    position: relative;*/
+    color: rgb(255, 255, 255);
+    font-size: 13.4px;
+    padding: 0px;
+    font-weight: lighter;
+    line-height: 12px;
+    opacity: .45;
+    /*margin-right: 20px;*/
+}
+.footer #owner {
+    position: absolute;
+    right: 10px;
+    bottom: -19px;
+    color: rgb(169, 100 , 26);
+    opacity: 1;
+    overflow: visible;
+}
+.bottom-line {
+    position: absolute;
+    border-bottom: 1.5px solid rgb(64, 109 , 24);
+    width: 500px;
+    right: 27px;
+    bottom: 20px;
+    opacity: .3;
+}
+.bottom-line {
+
+}
