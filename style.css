@@ -87,24 +87,24 @@ body {
     color: rgb(143, 87 , 29);
 }
 .middle .left, .center, .right {
-    /*    width: 400px;
-        height: 300px;*/
     display: inline-block;
 }
 .middle {
     cursor: default;
+    display: flex;
+    flex-direction: row;
 }
 .center {
     margin: 0 80px;
 }
-.vertical-line{
+/* .vertical-line{
     width: 1px;
     background-color: silver;
     height: 100%;
     float: left;
     border: 2px ridge rgb(255, 255, 255);
     border-radius: 2px;
-}
+} */
 .middle {
     display: block;
     position: absolute;
