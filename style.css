@@ -117,8 +117,8 @@ body {
     right: 20px;
     bottom: 45px;
     overflow: visible;
-} 
-.footer p {
+}
+.footer p { 
     /*    position: relative;*/
     color: rgb(255, 255, 255);
     font-size: 13.4px;
