@@ -1,4 +1,29 @@
 
+/*  Navigation bar styling*/
+
+nav{
+  background-color: black;
+  text-align: right;
+}
+nav>ul>li{
+  display:inline-block;
+  margin:0;
+  padding:0;
+}
+nav>ul>li>a{
+  text-decoration:none;
+  padding:1em;
+  text-transform:uppercase;
+  color:white;
+  display:block;
+  margin:0;
+}
+nav>ul>li>a:hover{
+  box-shadow:2px,2px,5px blue, inset 2px,2px, 5px blue;
+  background-color:white;
+  color:black;
+}
+/* End of navigation bar styling */
 
 
 /*portfolio styling */
