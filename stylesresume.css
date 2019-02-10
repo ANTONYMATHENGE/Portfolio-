@@ -13,6 +13,12 @@ body {
     background-size: cover;
     background-clip: content-box;
 }
+.down {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, .6);
+}
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -31,7 +37,7 @@ body {
     color:rgb(184,134,11);
 }
 .flex-container .div-right {
-    background-color: rgba(132, 125 , 128, .7);
+    background-color: rgba(132, 125 , 128, .6);
     margin-left: 16%;
     height: 700px;
     /*flex: 1 auto;*/
