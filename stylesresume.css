@@ -39,7 +39,7 @@ body {
     color:rgb(184,134,11);
 }
 .flex-container .div-right {
-    background-color: rgba(132, 125 , 128, .6);
+    background-color: rgba(132, 125 , 128, .85);
     margin-left: 16%;
     height: 700px;
     /*flex: 1 auto;*/
