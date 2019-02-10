@@ -31,7 +31,7 @@ body {
     color:rgb(184,134,11);
 }
 .flex-container .div-right {
-    background-color: rgba(132, 125 , 128, .9);
+    background-color: rgba(132, 125 , 128, .7);
     margin-left: 16%;
     height: 700px;
     /*flex: 1 auto;*/
@@ -64,7 +64,7 @@ body {
     top: 8%;
     left: 54%;
     /* transform: translate(-50%, -50%); */
-    color: rgb(99, 95 , 99);
+    color:rgb(211,211,211);
 }
 .spacer {
     height: 110px;
@@ -99,7 +99,7 @@ body {
 .div-right .item .desc {
     font-size: 16.5px;
     padding: 5px;
-    color: rgb(99, 95 , 99);
+  	color:rgb(211,211,211);
 }
 .div-right .item .desc span {
     font-weight: bold;
