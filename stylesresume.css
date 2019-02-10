@@ -44,9 +44,6 @@ body {
     height: 700px;
     /*flex: 1 auto;*/
 }
-.div-right .header {
-    /*text-align: left;*/
-}
 .div-right .header > div > p {
     text-align: left;
     width: 140px;
@@ -75,7 +72,7 @@ body {
     color:rgb(211,211,211);
 }
 .spacer {
-    height: 100px;
+    height: 85px;
     width: 400px;
     background-color: transparent;
 }
