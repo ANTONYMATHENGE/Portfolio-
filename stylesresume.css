@@ -1,0 +1,166 @@
+
+
+* {
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Resources/background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: column wrap;
+    text-align: center;
+
+}
+
+.flex-container .div-left {
+    position: fixed;
+    padding: 10px;
+    height: 100%;
+    align-items: stretch;
+    width: 16%;
+    background-color: rgba(0, 0, 0, .3);
+    overflow: auto;
+    color:rgb(184,134,11);
+}
+
+.flex-container .div-right {
+    background-color: rgba(132, 125 , 128, .9);
+    margin-left: 16%;
+    height: 700px;
+    /*flex: 1 auto;*/
+}
+
+.div-right .header {
+    /*text-align: left;*/
+
+}
+.div-right .header > div > p {
+    text-align: left;
+    width: 140px;
+    height: 42px;
+    /*display: inline-flex;*/
+    padding: 0px 20px 0px 20px;
+    margin: 0;
+    align-items: flex-start;
+    /*background-color: blue;*//*For programming purpose*/
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(138, 134 , 138);
+
+}
+
+.div-right .header > div.cv {
+    display: inline-flex;
+    height: 100px;
+    width: 150px;
+    font-size: 100px;
+    text-align: center;
+    /*background-color: blue;*//*For programming purpose*/
+    position: absolute;
+    top: 8%;
+    left: 54%;
+    /* transform: translate(-50%, -50%); */
+    color: rgb(99, 95 , 99);
+
+}
+
+.spacer {
+    height: 110px;
+    width: 400px;
+    background-color: transparent;
+}
+
+.div-right .flex-sub-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-around;*/
+}
+
+.div-right .item {
+    /*padding: 15px 20px;*/
+    text-align: left;
+    height: 110px;
+    width: 260px;
+    /*align-items: center;*/
+    /*background-color: blue;*//*For programming purpose*/
+    overflow: visible;
+    margin: 20px 70px 20px 20px;
+
+}
+
+.div-right .item .title {
+    font-size: 32px;
+    margin: 0 0 7px 0;
+    color: rgb(99, 95 , 99);
+}
+
+.div-right .item .title span {
+    font-weight: bold;
+    color: rgb(20, 13 , 25);
+}
+
+.div-right .item .desc {
+    font-size: 16.5px;
+    padding: 5px;
+    color: rgb(99, 95 , 99);
+}
+
+.div-right .item .desc span {
+    font-weight: bold;
+    color: rgb(20, 13 , 25);
+}
+
+.div-right .last {
+    height: 126.8px;
+    flex-flow: row wrap;
+}
+
+
+
+.div-right .item .desc #left{
+    margin-right: 23px;
+}
+
+.div-right .bottom-item {
+    /*background-color: blue;*//*For programming purpose*/
+    margin: 20px 70px 20px 20px;
+    width: 260px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.div-right .bottom-item .title {
+    font-size: 32px;
+    margin: 0 0 7px 0;
+    color: rgb(99, 95 , 99);
+}
+
+.div-right .bottom-item .title span {
+    font-weight: bold;
+    color: rgb(20, 13 , 25);
+}
+
+.div-right .bottom-item .desc {
+    font-size: 14.5px;
+    padding: 5px;
+    color: rgb(99, 95 , 99);
+}
+
+.div-right .bottom-item .desc span {
+    color: rgb(20, 13 , 25);
+}

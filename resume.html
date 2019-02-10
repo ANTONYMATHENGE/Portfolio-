@@ -1,39 +1,120 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Resume</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="author" content="Peter Wachira"/>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <div class="down"></div>
-    <div class="main">
-        <div class="top">
-            <ul>
-                <li class = "top-left">
-                    <img src="Resources/Logo2.png" alt="" width="70" height="40"/>
-                </li>
-                <li class="top-right">
-                    <a href="contacts.html">
-                        Contacts
-                    </a>
-                </li>
-                <li class="top-right">
-                    <a href="resume.html">
-                        Resume'
-                    </a>
-                </li>
-                <li class="top-right">
-                    <a href="portfolio.html">
-                        Portfolio
-                    </a>
-                </li>
-                <li class="top-right">
-                    <a href="index.html">Home'</a>
-                </li>
-            </ul>
+<html>
+    <head>
+        <title>resume</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="Peter Wachira"/>
+        <link rel="stylesheet" href="stylesresume.css" />
+    </head>
+    <body>
+        <div class="flex-container">
+            <aside class="div-left">
+                <img src="Resources/profile.jpg" alt="Profile" width="120" height="120"/>
+                <p>Peter Wachira</p>
+                <p>Christian <span class="separator">|</span> Tech&nbsp;Enthusiast <span class="separator">|</span>
+                    Developer <span class="separator">|</span> UI<span class="separator">/</span>UX&nbsp;Designer <span class="separator">|</span>
+                    Gamer<span class="separator">|</span> Internet&nbsp;Installation
+                </p>
+            </aside>
+            <aside class="div-right">
+                <div class="header">
+                    <div>
+                        <p>2019<br/>peter&nbsp;wachira</p>
+                    </div>
+
+                    <div class="cv">CV</div>
+                    <div class="spacer"></div>
+                </div>
+
+                <div class="flex-sub-container">
+                    <div class="item">
+                        <p class="title"><span>Work Experience</span>&nbsp;</p>
+                        <div class="desc"><span>Freelancer designer.</span> I have<br/> worked on various projects<br/> available on my portfolio</div>
+                    </div>
+                    <div class="item">
+                        <p class="title"><span>Education</span></p>
+                        <div class="desc"><span>BSc&nbsp;in&nbsp;Information&nbsp;Technology.</span><br/>
+                            J.K.U.A.T<br/>
+                            2016&nbsp;-&nbsp;2020
+                            <span>Secondary&nbsp;in&nbsp;Education&nbsp;</span><br/>
+                            Senior Highway Nyahururu<br/>
+                            2011&nbsp;-&nbsp;2015
+                        </div>
+                    </div>
+                    <div class="item last">
+                        <p class="title skills"><span>Skills & Expertise</span>&nbsp;</p>
+                        <div class="desc">
+                            <div id="left" style="display: inline-flex; height: auto;">
+                                HTML&nbsp;<br/>
+                                CSS<br/>
+                                Networking<br/>
+                                Javascript
+                            </div>
+                            <div id="right" style="width: 130px; height: 110px; display: inline-flex; flex-flow: column;">
+                                <div style="display: flex;">
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />
+                                </div>
+                                <div style="display: flex;">
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_white.png" alt="" height="8" width="8" />
+                                </div>
+                                <div style="display: flex;">
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_white.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_white.png" alt="" height="8" width="8" />
+                                </div>
+                                <div style="display: flex;">
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_yellow.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_white.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_white.png" alt="" height="8" width="8" />&nbsp;&nbsp;
+                                    <img src="Resources/ellipse_white.png" alt="" height="8" width="8" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-item bottom-item-left">
+                        <p class="title"><span>Achievements</span></p>
+                        <div class="desc">
+                            <div>
+                                ALC&nbsp;<span>Android&nbsp;Basics.</span><br/>
+                                -IBM<br/><br/>
+                            </div>
+                            <div class="first">
+                                <div style="display: inline-flex;"><img src="Resources/ccna.png" alt="" height="24" width="24" /></div>
+                                &nbsp;&nbsp;
+                                <div style="display: inline-flex;"><span>Ccna</span>&nbsp;Switching and Routing<br/>-Cisco</div>
+                            </div>
+                            <div class="sec">
+                                <div style="display: inline-flex;"><img src="Resources/cloud_intro.png" alt="" height="24" width="24" /></div>
+                                &nbsp;&nbsp;
+                                <div style="display: inline-flex; margin-top: -100px;"><span>Cloud</span>&nbsp;Cloud Computing<br/>-IBM</div>
+                            </div>
+                            <div class="third">
+                                <div style="display: inline-flex;"><img src="Resources/iat.png" alt="" height="24" width="24" /></div>
+                                &nbsp;&nbsp;
+                                <div style="display: inline-flex;"><span>ICDL</span>&nbsp;Spreadsheets<br/>-IAT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-item bottom-item-right">
+                        <p class="title"><span>Contact Info</span>&nbsp;</p>
+                        <div class="desc" style="color: rgb(176, 171 , 175); font-weight: bold; font-size: 18px;"><span style="color: rgb(20, 13 , 25); font-weight: bold;">&#9742;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0711937973<br/>
+                            <span style="color: rgb(20, 13 , 25); font-weight: bold;">&#9742;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pwachira900@gmail.com<br/>
+                        </div>
+                    </div>
+                </div>
+            </aside>
         </div>
-  </body>
+    </body>
 </html>
