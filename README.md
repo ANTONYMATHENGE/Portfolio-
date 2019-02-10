@@ -15,8 +15,8 @@ incase you encounter other bugs please reach out via the email i have provided.
 ## Technologies Used
 * CSS
 * HTML
-##Live Demo
- *To get access to a live demo click this link  https://peter-wachira.github.io 
+###Demo
+ * To get access to a live demo click this link  https://peter-wachira.github.io 
 
 ### License
 * MIT License
