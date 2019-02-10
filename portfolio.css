@@ -1,0 +1,66 @@
+.portfolio_container{
+    position: absolute;
+    display: none;
+    /*background-color: rgba(0, 0, 0, .6);*/
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 65px;
+    box-sizing: content-box;
+
+}
+.top_spacer{
+  margin-top: 50px;
+}
+  #about_me{
+    color: rgb(143, 87 , 29);
+    font-size: 40px;
+  }
+.about-me{
+  color: rgb(211,211,211);
+  background-color: rgba(132, 125 , 128, .5);
+  text-align: center;
+  text-overflow: wrap;
+  display: inline-block;
+  background-clip: border-box;
+  width: 50%;
+  margin:20px 25% 0px 25%;
+}
+#my_name{
+  font-style: italic;
+  font-weight: bold;
+}
+.middle_spacer{
+      border: 1.5px solid rgba(64, 109 , 24,0.6);
+      margin:20px 25% 30px 25%;
+      width: 50%;
+  }
+  #title_1{
+    text-align: center;
+    color: rgb(143, 87 , 29);
+    font-size: 30px;
+    padding:20px 25% 7px 25%;
+  }
+
+  .last_spacer{
+
+        border: 1.5px solid rgba(64, 109 , 24,0.6);
+        margin:0px 25% 0px 25%;
+        width: 50%;
+    }
+    .sub_container{
+      padding-top: 20px;
+      background-color: rgba(132, 125 , 128, .5);
+      width: 60%;
+      margin:10px 20% 15px 20%;
+      height: 100px;
+    }
+.sub_container #desc_2{
+  color: rgb(211,211,211);
+  text-align: center;
+  justify-content: center;
+
+}
